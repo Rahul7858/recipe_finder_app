@@ -12,7 +12,7 @@ const App = () => {
       <NavBar/>
 
       <Routes>
-        <Route path='/react-dummy' element={<Home />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path='/recipe-info/:id' element={<RecipeInfo/>}></Route>
         <Route path='/favourites' element={<Favourite/>}></Route>
 
