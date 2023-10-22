@@ -9,10 +9,10 @@ const App = () => {
   
   return (
     <div className='bg-teal-100 min-h-screen'>
-      <NavBar></NavBar>
+      <NavBar/>
 
       <Routes>
-        <Route path='/' element={<Home />}></Route>
+        <Route path='/react-dummy' element={<Home />}></Route>
         <Route path='/recipe-info/:id' element={<RecipeInfo/>}></Route>
         <Route path='/favourites' element={<Favourite/>}></Route>
 
